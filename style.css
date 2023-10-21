@@ -5,22 +5,19 @@
     --yellow: #fff54f;
 }
 
+body {
+    text-align: center;
+}
+
 /* edit the body as you'd like, color, images, aligning */
 
 
 
-/*** TITLES ***/
 h1 {
-    /* font size of text for walter white's activity.
-     If you decide not to duplicate & create your own,
-     don't forget to change the font size */
     font-size: 112px;
 }
 
 h2 {
-    /* font size & family of text for walter white's activity.
-     If you decide not to duplicate & create your own,
-     don't forget to change the font size & family */
     font-size: 40px;
     font-family: Comic Sans, Comic Sans MS, cursive;
 }
@@ -28,24 +25,26 @@ h2 {
 
 
 /*** IMAGES ***/
-/* Your row = container
-     Your column = items
-     Hint: look into: display, flex-wrap
-     justy-content, align-items, gap*/
+/* #firstRow img,
+#secondRow img,
+#thirdRow img,
+#fourthRow img img {
+    height: 100px;
+} */
 
-
-
-img {
-    height: 400px;
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
 }
+
 
 
 
 /*** LOLLIPOP CONTENT ***/
 p {
-    /* font size of text for walter white's activity.
-     If you decide not to duplicate & create your own,
-     don't forget to change the font size */
     font-size: 25px;
 }
 
